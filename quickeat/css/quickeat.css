@@ -1,0 +1,94 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;   
+}
+body
+{
+   background-image: url(../img/background-1.png);
+   font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+.header{
+    background-image: url(../img/background-1.png);
+}
+.div .navigation  a {
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+}
+
+.navigation .navigation2 .dropdown li a {
+    display: flex;
+    justify-content: left;
+    text-decoration: none;
+
+}
+
+.navigation2 li a {
+    padding-top: 20px;
+    text-decoration: none;
+    font-family: url('../Font/Spartan-Regular.ttf');
+    font-size: 1.3vw;
+    font-weight: 500;
+    margin-top: 20px;
+    color: black;
+    padding-left: 20px;
+}
+
+.dropdown-menu .dropdown-item #drops li a{
+    height: 1.2rem;
+    width: 10rem;
+    display: flex;
+    align-items: left;
+    flex-direction: row;
+    font-size: 1.2vw;
+}
+.dropdown-menu .dropdown-item:hover{
+    background-color: #046a6a;
+}
+
+ section .banner-heading{
+    margin-top: 70px;
+}
+.cafe {
+    background-color: rgb(93, 113, 113);
+}
+.banner-cafe{
+    display: flex;
+    flex-direction: row;
+}
+#Partnership{
+    background-color: rgb(93, 113, 113);
+}
+.partner-img{
+    position: relative;
+}
+.overlay-text{
+    position: absolute;
+    top: 80px;
+    left: 50px;
+}
+.overlay-btn{
+    position: absolute;
+    top: 140px;
+    left: 50px;
+}
+
+.rating{
+   height: 10rem;
+}
+.rate_1{
+    border: 1px solid black;
+    border-radius: 10px;
+  
+}
+.overlay-btn{
+    border: 0;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 480px){
+    .btn-info a{
+        font-size: 3vw;
+    }
+}

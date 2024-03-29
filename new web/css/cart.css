@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.btn-heart{
+    position: absolute;
+    top: 216px;
+    left: 328px;
+    display: flex;
+}
+
+.btn-her{
+    background: transparent;
+    border: none;
+    margin: 87px;
+    font-size: 88px;
+    outline: none;
+    color: grey;
+}
+
+.btn-her i:hover{
+    cursor: pointer;
+}
+
+            
+        

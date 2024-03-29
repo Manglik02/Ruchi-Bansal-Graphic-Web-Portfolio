@@ -1,0 +1,30 @@
+
+
+@media screen and (max-width:990px){
+    .nav-toggle {
+       display: block;
+       margin-right: 20px;
+     }
+     .nav-links{
+         display: none;
+     }
+     .feature-card{
+        width: calc(50% -10px);
+        height: 180px;
+     }
+     .example-area{
+        gap: 20px;
+     }
+     .cta-section{
+        padding-block: 80px;
+    }
+    .big-features-section #second-big-features-section{
+        flex-direction: column;
+    }
+    .footer-container{
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+        align-items: center;
+    }
+ }

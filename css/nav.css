@@ -1,0 +1,35 @@
+.div .navigation  a {
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+}
+
+.navigation .navigation2 .dropdown li a {
+    display: flex;
+    justify-content: left;
+    text-decoration: none;
+
+}
+
+.navigation2 li a {
+    padding-top: 20px;
+    text-decoration: none;
+    font-family: url('../Font/Spartan-Regular.ttf');
+    font-size: 1.3vw;
+    font-weight: 500;
+    margin-top: 20px;
+    color: black;
+    padding-left: 20px;
+}
+
+.dropdown-menu .dropdown-item #drops li a{
+    height: 1.2rem;
+    width: 10rem;
+    display: flex;
+    align-items: left;
+    flex-direction: row;
+    font-size: 1.2vw;
+}
+.dropdown-menu .dropdown-item:hover{
+    background-color: #046a6a;
+}

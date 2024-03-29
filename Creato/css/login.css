@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.login-form{
+    width: 30rem;
+    position: absolute;
+    top:10%;
+    left: 30%;
+   text-align: center;
+    background-color: rgb(234, 192, 222);
+    border-radius: 10px;
+}
+.login-form h1{
+  padding: 10px;
+  text-align: center;
+
+}
+form .txt_field{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+  }
+  
+  .txt_field input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+  }
+.login-form input{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+   
+}
+.login-form input[type="text"]{
+padding: 10px;
+}
+form input[type="email"], input[type="password"]{
+    padding: 10px;
+   width: 80%;
+    }
+form  input[type="submit"]{
+    width: 50%;
+    height: 50px;
+    background-color: rgb(240, 3, 3);
+    color: aliceblue;
+    border: 1px ;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    margin: 20px;
+    }
+.login-form p{
+    padding: 10px;
+    font-size: 1.2vw;
+    font-weight: 600;
+}
+.login-form label{
+   text-align: left;
+}
+.signup_link{
+    padding-block: 1rem;
+}

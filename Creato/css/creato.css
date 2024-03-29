@@ -1,0 +1,289 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+
+}
+body {
+    font-family: sans-serif;
+    font-family: url('../Font/Spartan-Regular.ttf');
+    text-decoration: none;
+    list-style-type: none;
+   
+}
+a{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.custombg {
+   
+    width: 100%;
+    background-color: darkslategrey;
+}
+.top{
+    display: flex;
+    flex-direction:row ;
+    
+}
+.header-1{
+    display: flex;
+    flex-direction:row ;
+   
+}
+
+.location_email {
+    display: flex;
+    flex-direction: row;
+   }
+
+.locate {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+   
+  
+    align-items: center;
+    color: azure;
+    padding-top: 10px;
+
+}
+.dropdown li a {
+display: flex;
+justify-content: center;
+}
+.bx-location-plus,
+.bx-share-alt,
+.bx-envelope,
+.bx-phone-call,
+i {
+    font-size: 1.8vw;
+   
+    color: #078586;
+  
+}
+
+.Location {
+    display: flex;
+    height: 3rem;
+    color: aliceblue;
+}
+
+.email {
+    display: flex;
+    color: aliceblue;
+}
+
+.share {
+    display: flex;
+    flex-direction: row;
+   
+    color: aliceblue;  
+}
+
+.phone {
+    color: aliceblue;
+   margin-left: 60px;
+}
+
+.phone_social {
+    display: flex;
+    flex-direction: row;
+  
+    }
+.navigation {
+    height: 8rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.logobox {
+    height: 6rem;
+    display: flex;
+
+
+}
+.service-012{
+    color: black;
+    text-decoration: none;
+}
+
+.image-1 {
+    height: 4rem;
+    width: auto;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.div .navigation a {
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+}
+
+.navigation .navigation2 .dropdown li a {
+    display: flex;
+    justify-content: left;
+    text-decoration: none;
+
+}
+
+.navigation2 li a {
+    padding-top: 20px;
+    text-decoration: none;
+    font-family: url('../Font/Spartan-Regular.ttf');
+    font-size: 1.3vw;
+    font-weight: 500;
+    margin-top: 20px;
+    color: black;
+    padding-left: 20px;
+}
+
+.dropdown-menu .dropdown-item #drops li a{
+    height: 1.2rem;
+    width: 10rem;
+    display: flex;
+    align-items: left;
+    flex-direction: row;
+    font-size: 1.2vw;
+}
+.dropdown-menu .dropdown-item:hover{
+    background-color: #046a6a;
+}
+
+.get_touch {
+    display: flex;
+    
+}
+
+.fa-magnifying-glass {
+    padding: 30px 20px 0px 20px;
+}
+
+#btn-02 {
+    
+    background-color: #078586;
+    color: azure;
+    margin-top: 10px;
+    font-size: 1.5vw;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px 0px 10px 0px;
+}
+#btn-02:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid #066969;
+    color: #066969;
+}
+.read{
+ background-color: aqua;
+}
+.bx-menu {
+    color: #078586;
+    font-size: 40px;
+    margin-left: 10px;
+    padding-top: 35px;
+}
+
+#demo {
+   
+    width: 100%;
+}
+
+.human-resourse{
+  padding-top: 40px;
+  text-decoration: none;
+  color: black;
+  list-style-type: none;
+}
+.leading_1{
+    display: flex;
+    }
+    .service-012 {
+        background-color: rgb(240, 240, 240);
+        display: flex;
+         align-items: center;
+        justify-content: center;
+      }
+     
+    .Experiences{
+        background-image: url(../img/areaof-ecp-1.jpg);
+        height: 30rem;
+    }
+    .Experiences-01{
+        margin-top: 70px;
+    }
+    .team-02{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .card .overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(255, 255, 255, 0.297);
+        overflow: hidden;
+        width: 100%;
+        height: 0;
+        transition: .5s ease;
+      }
+      .outsourcing-para-1{
+        position: absolute;
+        top: 3000px;
+        left: 220px;
+        z-index: 3;
+      }
+      .outsourcing-para-2{
+        position: absolute;
+        top: 3000px;
+       
+        z-index: 3;
+      }
+      .outsourcing-para{
+        position: absolute;
+        top: 3050px;
+        left: 220px;
+        z-index: 3;
+      }
+      .outsourcing-para-5{
+        position: absolute;
+        top: 3050px;
+        left: 220px;
+        z-index: 3
+      }
+      .outsourcing-para-4{
+        position: absolute;
+        top: 3050px;
+        left: 220px;
+        z-index: 3
+      }
+
+      .outsourcing{
+        position: absolute;
+        top: 3070px;
+        left: 190px;
+        z-index: 3;
+      }
+      .outsourcing-1{
+        position: absolute;
+        top: 3070px;
+        
+        z-index: 3;
+      }
+      .img-over{
+        margin-left: 10px;
+        
+      }
+      .image-logo_4{
+        height: 4rem;
+      }
+      .bottom-nav{
+        background-color: black;
+        color: aliceblue;
+      }
